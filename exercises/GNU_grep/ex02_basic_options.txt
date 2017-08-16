@@ -11,4 +11,4 @@ grep -n 'it' sample.txt
 grep -c 'a' sample.txt
 
 5) Match first two lines containing the string: do
-
+grep -m 2 'do' sample.txt
