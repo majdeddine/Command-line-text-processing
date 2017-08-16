@@ -8,7 +8,7 @@ grep -v 'o' sample.txt
 grep -n 'it' sample.txt
 
 4) Output only number of matching lines containing the string: a
-
+grep -c 'a' sample.txt
 
 5) Match first two lines containing the string: do
 
