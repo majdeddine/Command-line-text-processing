@@ -2,7 +2,7 @@
 grep -i 'no' sample.txt
 
 2) Match lines not containing the string: o
-
+grep -v 'o' sample.txt
 
 3) Match lines with line numbers containing the string: it
 
