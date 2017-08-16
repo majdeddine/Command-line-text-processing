@@ -1,4 +1,0 @@
-1) Match lines containing the string irrespective of lower/upper case: no
-grep -i 'no' sample.txt
-
-2) Match lines not containing the string: o
