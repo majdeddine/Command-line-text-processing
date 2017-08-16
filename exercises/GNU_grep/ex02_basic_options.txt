@@ -5,7 +5,7 @@ grep -i 'no' sample.txt
 grep -v 'o' sample.txt
 
 3) Match lines with line numbers containing the string: it
-
+grep -n 'it' sample.txt
 
 4) Output only number of matching lines containing the string: a
 
