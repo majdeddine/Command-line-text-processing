@@ -21,4 +21,4 @@ String1: it
 but not these strings
 String2: No
 String3: no
-
+grep it sample.txt | grep -iv no
