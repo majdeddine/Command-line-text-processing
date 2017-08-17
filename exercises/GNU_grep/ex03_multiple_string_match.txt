@@ -14,7 +14,7 @@ String1: a
 String2: i
 and contains this as well
 String3: do
-
+grep -e a -e i sample.txt | grep do
 
 4) Match lines containing the string
 String1: it
