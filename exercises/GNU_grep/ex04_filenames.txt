@@ -7,10 +7,10 @@ grep -l are *
 grep -L two *
 
 3) Match all lines containing the string: are
-
+grep are *
 
 4) Match maximum of two matching lines along with filenames containing the character: a
-
+grep -m2 a *
 
 5) Match all lines without prefixing filename containing the string: to
-
+grep -h to *
