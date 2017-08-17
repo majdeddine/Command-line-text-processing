@@ -7,7 +7,7 @@ grep -e Not -e he -e sun sample.txt
 2) Match lines containing both these strings
 String1: He
 String2: or
-
+grep He sample.txt | grep or
 
 3) Match lines containing either of these two strings
 String1: a
