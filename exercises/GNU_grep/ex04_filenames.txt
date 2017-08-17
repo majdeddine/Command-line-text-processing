@@ -1,10 +1,10 @@
 Note: All files present in the directory should be given as file inputs to grep
 
 1) Show only filenames containing the string: are
-
+grep -l are *
 
 2) Show only filenames NOT containing the string: two
-
+grep -L two *
 
 3) Match all lines containing the string: are
 
