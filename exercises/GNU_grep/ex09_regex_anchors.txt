@@ -1,24 +1,24 @@
 1) Match all lines starting with: no
-
+grep '^no' sample.txt
 
 2) Match all lines ending with: it
-
+grep 'it$' sample.txt
 
 3) Match all lines containing whole word: do
-
+grep -w 'do' sample.txt
 
 4) Match all lines containing words starting with: do
-
+grep '\<do' sample.txt
 
 5) Match all lines containing words ending with: do
-
+grep 'do\>' sample.txt
 
 6) Match all lines starting with: ^
-
+grep '^^' sample.txt
 
 7) Match all lines ending with: $
-
+grep '$$' sample.txt
 
 8) Match all lines containing the string: in
-    not surrounded by word boundaries, for ex: mint but not tin or ink
-
+not surrounded by word boundaries, for ex: mint but not tin or ink
+grep '\Bin\B' sample.txt
